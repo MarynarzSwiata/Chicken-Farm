@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    margin: 5% auto;
+    width: 500px;
+    height: 500px;
+    border: 2px dashed #000;
+    background-color: green;
+}
+
+.chickenHouse {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #000;
+    border-left: 0;
+    margin-top: 38%;
+    
+}
+
+#chicken {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 2px solid #000;
+    border-radius: 100%;
+    top: 230px;  /* To będziemy modyfikować */
+    left: 35px; /* To będziemy modyfikować */
+}
